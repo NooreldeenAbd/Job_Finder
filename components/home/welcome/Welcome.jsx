@@ -21,7 +21,7 @@ const Welcome = () => {
   return (
     <View>
       <View style={styles.container}>
-        <Text style={styles.userName}>Hello User</Text> {/* Todo: Username */}
+        <Text style={styles.userName}>Hello there</Text>
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
 
@@ -29,7 +29,7 @@ const Welcome = () => {
         <View style={styles.searchWrapper}>
           <TextInput
             style={styles.searchInput}
-            value=""
+            value={""}
             onChange={() => {}}
             placeholder="What are you looking for?"
           />
