@@ -35,7 +35,6 @@ const useFetch = (endPoint, query) => {
             } else {
                 response = mockJobs;
             }
-
             setData(response.data);
 
         } catch (error) {
