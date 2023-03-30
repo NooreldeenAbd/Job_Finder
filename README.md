@@ -1,15 +1,12 @@
-# Expo Router Example
+# Camps
+An app where someone could find jobs and apply to them, built with React Native, Expo, and Rapid api
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+This project is currently finished, however, it isn't deployed yet. Check back soon for a live demo!
 
-## 🚀 How to use
 
-```sh
-npx create-react-native-app -t with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+# Preview
+<p float="left">
+<img src="./read_me_assets/Profile.png" width="300" height="600" alt="Profile Page"/>
+<img src="./read_me_assets/List.png" width="300" height="600" alt="List Page"/>
+<img src="./read_me_assets/Job.png" width="300" height="600" alt="Job Page"/>
+</p>
