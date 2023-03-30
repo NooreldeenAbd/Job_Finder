@@ -48,11 +48,11 @@ const styles = StyleSheet.create({
   locationImage: {
     width: 14,
     height: 14,
-    tintColor: COLORS.gray,
+    tintColor: COLORS.text,
   },
   locationName: {
     fontSize: SIZES.medium - 2,
-    color: COLORS.gray,
+    color: COLORS.text,
     fontFamily: FONT.regular,
     marginLeft: 2,
   },

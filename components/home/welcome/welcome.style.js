@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   searchWrapper: {
     flex: 1,
-    backgroundColor: COLORS.white,
+    backgroundColor: COLORS.surface,
     marginRight: SIZES.small,
     justifyContent: "center",
     alignItems: "center",
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   searchBtnImage: {
     width: "50%",
     height: "50%",
-    tintColor: COLORS.white,
+    tintColor: COLORS.surface,
   },
   tabsContainer: {
     width: "100%",
@@ -61,11 +61,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: SIZES.small,
     borderRadius: SIZES.medium,
     borderWidth: 1,
-    borderColor: activeJobType === item ? COLORS.secondary : COLORS.gray2,
+    borderColor: activeJobType === item ? COLORS.secondary : COLORS.muted,
   }),
   tabText: (activeJobType, item) => ({
     fontFamily: FONT.medium,
-    color: activeJobType === item ? COLORS.secondary : COLORS.gray2,
+    color: activeJobType === item ? COLORS.secondary : COLORS.muted,
   }),
 });
 

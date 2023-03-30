@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   },
   contextText: {
     fontSize: SIZES.medium - 2,
-    color: COLORS.gray,
+    color: COLORS.text,
     fontFamily: FONT.regular,
     marginVertical: SIZES.small / 1.25,
   },

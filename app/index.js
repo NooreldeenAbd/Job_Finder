@@ -10,10 +10,10 @@ const Home = () => {
     const [searchTerm, setSearchTerm] = useState('');
 
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.background }}>
             <Stack.Screen
                 options={{
-                    headerStyle: { backgroundColor: COLORS.lightWhite },
+                    headerStyle: { backgroundColor: COLORS.background },
                     headerShadowVisible: false,
                     headerLeft: () => (<ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />),
                     headerRight: () => (<ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />),

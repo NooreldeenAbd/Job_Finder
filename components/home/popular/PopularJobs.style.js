@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   headerBtn: {
     fontSize: SIZES.medium,
     fontFamily: FONT.medium,
-    color: COLORS.gray,
+    color: COLORS.text,
   },
   cardsContainer: {
     marginTop: SIZES.medium,
